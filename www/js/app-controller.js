@@ -37,7 +37,7 @@
 
 				setNowTime();
 
-				$interval(setNowTime, 500);
+				$interval(setNowTime, 1000);
 			}
 
 	app.controller(

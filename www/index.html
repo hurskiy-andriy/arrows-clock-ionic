@@ -24,8 +24,25 @@
   <body 
       ng-app="arrows-ionic"
       ng-controller="AppController as ac">
-        <div class="txt-cntr">  
+        <div class="txt-cntr">
             <div class="container w302 m16 inl">
+                <img src="img/clock-face.svg">
+                </img>
+                <!-- <svg 
+                  viewBox="0 0 300 300" 
+                  height="300" 
+                  width="300"
+                  xmlns="http://www.w3.org/2000/svg">
+                    <circle 
+                      stroke="#868686"
+                      stroke-width="8"
+                      stroke-dasharray="1% 4%"
+                      fill="#FFFFFF"
+                      r="146" 
+                      cx="150" 
+                      cy="150"/>
+                </svg>  -->
+
                 <div class="time-val time-0">
                   12
                 </div>
@@ -49,6 +66,8 @@
                 <div class="dot">
                 </div>
             </div>
+        </div>
+        <div class="txt-cntr">
             <div class="txt-cntr w302 m16 inl">
               {{ac.hrs}}:{{ac.min}}:{{ac.sec}}
             </div>

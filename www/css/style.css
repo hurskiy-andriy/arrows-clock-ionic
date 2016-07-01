@@ -41,12 +41,10 @@
 }
 
 .txt-cntr {text-align: center;}
-
 .w302 {width: 302px;}
-
 .m16 {margin: 16px;}
-
 .inl {display: inline-block;}
+.m8 {margin: 8px;}
 
 .dot {
 	position: absolute;
@@ -70,21 +68,22 @@
 }
 
 .time-0 {
-	top: 0;
+	top: 8px;
 	left: 140px;
 }
 
 .time-3 {
 	top: 140px;
-	right: 0;
+	right: 8px;
 }
 
 .time-6 {
-	bottom: 0;
+	bottom: 8px;
 	left: 140px;
 }
 
 .time-9 {
 	top: 140px;
-	left: 0;
+	left: 8px;
 }
+
