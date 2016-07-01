@@ -3,3 +3,5 @@ Start in browser:
 
 Connect with android phone (on phone must 'PhoneGap developer' app be installed): 
     phonegap serve
+
+Or install arrows-ionic.apk package on your phone
